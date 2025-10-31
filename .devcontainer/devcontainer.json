@@ -1,0 +1,4 @@
+{
+  "name": "VR Multiuser Dev Container",
+  "postStartCommand": "npm start"
+}
