@@ -6,8 +6,6 @@ let socketServer = new WebSocket.Server({ server });
 
 app.use(express.static("."));
 
-console.log("Testing");
-
 socketServer.on("connection", (socket) => {
   socket.addEventListener("message", (event) => {
     console.log("Received message from client:", event.data);
